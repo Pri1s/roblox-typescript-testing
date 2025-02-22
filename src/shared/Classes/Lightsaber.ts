@@ -56,7 +56,7 @@ class LightsaberStateMachine {
 	}
 }
 
-import { ILightsaberForm } from "./Forms/ILightsaberForm";
+import { ILightsaberForm } from "../Settings/Forms/Template";
 
 export class Lightsaber {
 	private stateMachine: LightsaberStateMachine;

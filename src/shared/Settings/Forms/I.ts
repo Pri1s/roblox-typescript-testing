@@ -1,4 +1,4 @@
-import { ILightsaberForm } from "./ILightsaberForm";
+import { ILightsaberForm } from "./Template";
 
 const FormI: ILightsaberForm = {
 	CAMERA_OFFSET: new Vector3(1.5, 0, 0),
@@ -8,8 +8,8 @@ const FormI: ILightsaberForm = {
 	},
 	EQUIP_TIME: 0.5,
 	ATTACK_TIME: 0.5,
-	COMBAT_WALK_SPEED: 12,
+	COMBAT_WALK_SPEED: 8,
 	DEFAULT_WALK_SPEED: 16,
 };
 
-export default FormI; 
+export default FormI;

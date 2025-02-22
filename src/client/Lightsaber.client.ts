@@ -1,5 +1,5 @@
 import { Lightsaber } from "shared/Classes/Lightsaber";
-import FormI from "shared/Classes/Forms/I";
+import FormI from "shared/Settings/Forms/I";
 
 const players = game.GetService("Players");
 const userInputService = game.GetService("UserInputService");
