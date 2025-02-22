@@ -1,8 +1,11 @@
 {
 	"name": "roblox-ts-game",
+	"preserveModelProperties": true,
 	"globIgnorePaths": [
 		"**/package.json",
-		"**/tsconfig.json"
+		"**/tsconfig.json",
+		"Workspace/**/*",
+		"ReplicatedStorage/Assets/**/*"
 	],
 	"tree": {
 		"$className": "DataModel",
